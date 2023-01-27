@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+}
+
+.borda {
+    margin-bottom: 0%;
+    margin: 20%;
+    margin-top: 0%;
+}
+
+.topbar {
+    background-color: rgb(45, 161, 80);
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 252, 55);
+}
+
+#toptext {
+    padding: 15px;
+    margin: auto;
+    font-size: x-large;
+}
+
+.title {
+    text-align: left;
+    letter-spacing: -2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+    font-size: 3em;
+}
+
+.subt {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: rgb(104, 104, 104);
+}
+
+.fonte {
+    letter-spacing: 0px;
+    font-size: 0.8em;
+    color: #555;
+    margin-bottom: 0px;
+}
+
+.data {
+    font-size: x-small;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.link {
+    padding-right: 10px;
+    width: 25px;
+}
+
+.content {
+    margin: 5% 12%;
+}
+
+.text {
+    color: #555;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-bottom: 4%;
+}
+
+.text1 {
+    color: #555;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-bottom: 0%;
+}
+
+.strong {
+    font-size: 1.2em;
+    color: rgb(25, 189, 60);
+}
+
+.img2 {
+    text-align: center;
+    width: 100%;
+}
+
+.desc {
+    margin: 0px;
+    font-size: small;
+    color: rgb(150, 150, 150);
+}
+
+h2 {
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 2%;
+    background-color: #555;
+}
+
+@media (max-width: 766px) {
+    .borda {
+        margin: 2%
+    }
+    .cont {
+        min-width: none;
+    }
+    .title {
+        text-align: left;
+        letter-spacing: -1px;
+        font-size: 1.8em;
+    }
+    .subt {
+        font-size: 0.9em;
+    }
+    .fonte {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 767px) {
+    .borda {
+        margin: 10%
+    }
+    .cont {
+        min-width: none;
+    }
+    .title {
+        letter-spacing: -1px;
+        font-size: 3em;
+    }
+    .subt {
+        font-size: 1em;
+    }
+    .fonte {
+        font-size: 0.8em;
+    }
+}
